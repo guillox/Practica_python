@@ -1,0 +1,10 @@
+"""13.- Tuplas
+b) Sea la siguiente tupla:
+tupla  =  (1,  [3,  4,  5])
+II. ¿Cuántos elementos tiene? Demuéstrelo mediante un script
+len(tuple)
+
+
+"""
+tupla  =  (1,  [3,  4,  5])
+print len(tupla)

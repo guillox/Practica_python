@@ -1,0 +1,142 @@
+Como ya se ha mencionado en días anteriores, Python te permite hacer
+"guiones" que la computadora puede entender y realizar todo tipo de
+acciones, en otras palabras "programas".
+Seguramente, si usas windows ya has visto muchos ".exe" en tu
+computadora, estos son programas en lenguaje maquina, que al hacer
+doble clic en ellos son mandados a ser leídos por la computadora.
+
+Como Python es un "lenguaje interpretado" los programas no están en
+lenguaje maquina, sino en texto plano, como un archivo .txt
+cualquiera. Solo que su extensión es .py en vez de .txt
+
+La extensión ".py" le permite al sistema operativo Windows saber que
+al hacer doble clic sobre el, debe usar el interprete Python para leer
+ese archivo ".py" pero también tendras la opción de hacer clic derecho
+en ese archivo ".py" y en vez de mandarlo a ejecutar, podrás decirle
+"editar" y ver el programa por dentro, y modificarlo a tu gusto. (por
+lo general a estos se les llama "Scripts" en vez de "Programas", para
+precisamente hacer saber que en el mismo archivo que se ejecuto se
+encuentra el código y puede ser leído y modificado, a diferencia de
+los .exe)
+
+==> Hacer mi primer Script en Python
+
+Hoy lo que vamos a hacer es justamente eso, un archivo ".py" y a
+aprender a hacerlo funcionar como si fuese cualquier otro programa de
+la computadora.
+
+Como ya debes tener instalado Python en la computadora, este trae (En
+el Menu Aplicaciones -> Python) varias herramientas de desarrollo,
+pero hoy vamos a hacer un script de la manera mas sencilla utilizando
+el bloc de notas, una herramienta que opino es bastante familiar para
+todos. (Para los que estén en Linux usen el bloc de notas de gnome:
+gedit o kate si estan en KDE)
+
+Instrucciones:
+
+Paso 1.- Abrir en Bloc de Notas
+Paso 2.- Escribir en el:
+
+import time
+print "Hola Mundo"
+time.sleep(5)
+
+Paso 3.- Guardar el archivo como "hola.py" (incluir las comillas a la
+hora de guardar el archivo, de lo contrario el bloc de notas en
+realidad guardara el archivo como hola.py.txt )
+Paso 4.- Cerrar el bloc de notas
+Paso 5.- Ir a la carpeta donde guardaron el archivo hola.py y hacer
+doble clic en el.
+
+-- Que debera suceder?
+
+Se abrirá una pantalla negra con las palabras "Hola Mundo", se quedara
+abierta por 5 segundos y luego se cerrara.
+
+Listo, acabas de hacer funcionar tu primer script de Python !!!!
+
+Así de sencillo.
+
+-- Que tienes por delante?
+
+Solo te queda explorar todo el universo que python tiene para ti, así
+como se logro ejecutar ese script que solo mostro una ventana negra y
+unas letras, también se pueden mostrar interfaces graficas completas,
+sin nada que envidiar a todos los programas que has usado hasta
+ahora, o hasta servidores web, paginas web, y un gran etcetera.
+
+Este curso te seguirá guiando un poco mas en el trayecto inicial de
+esa exploración, reemplazaremos donde dice 'print "Hola Mundo"' por
+una gran cantidad de cosas, que espero te abran una puerta a la
+creatividad y la innovación, de modo que cada uno de ustedes pueda
+despegar por si solos y volar a la altura que cada uno decida.
+
+-- Que es eso de "import time"
+
+Bien, resulta que el script cuando se ejecuta de este modo tan
+sencillo, que no le creamos una interfaz grafica para que sea visible,
+ni nos preocupamos aun por su apariencia, no le queda otra que abrir
+una ventana de fondo negro y mostrar alli las cosas que pidamos, como
+ese print "Hola Mundo"
+
+Si solo le poníamos la instruccion print, Python abriría la ventana de
+fondo negro, mostraría "Hola Mundo" y la volvería a cerrar tan rápido
+que casi no la notaríamos, mucho menos podríamos leer lo que dice. Es
+por ello que utilizo una función que hace que el programa se "duerma"
+durante 5 segundos y luego si continúe; esta función es "sleep" o
+"dormir" en ingles.
+
+Para poder usar la función "dormir" debo primero decirle a Python que
+se vamos a usar funciones relacionadas con el tiempo, por eso en
+primer lugar dice "import time", de modo que al final basta con poner
+"de las funciones relacionadas con tiempo, ejecuta la funcion -dormir-
+y que sean 5 segundos-"
+así: time.sleep(5)
+
+(Con esto cumplimos con la tradición, de que el primer programa que se
+hace para aprender cualquier lenguaje de programacion es el  "hola
+mundo", en honor además a Dennis Ritchie, el Padre todos los lenguajes
+de programacion, y creador del Lenguaje C entre otras cosas.
+Lamentablemente fallecio el 12 de Octubre pasado.)
+
+==> Sorpresa!!: Hacer mi segundo Script en Python
+
+Realmente los scripts de mayor utilidad son aquellos que pueden tomar
+información al momento que se ejecutan y hacer algo con esa
+información.
+
+Nosotros haremos algo muy sencillo, el segundo script sera muy similar
+al primero, pero nos preguntara nuestro nombre y en vez de saludar al
+mundo nos saludara a nosotros personal mente.
+
+Instrucciones:
+
+Paso 1.- Abrir en Bloc de Notas
+Paso 2.- Escribir en el:
+
+import time
+nombre=raw_input("Escriba nombre y presione enter:")
+print "Hola "+nombre
+time.sleep(5)
+
+Paso 3.- Guardar el archivo como "hola2.py" (de nuevo incluir las
+comillas a la hora de guardar el archivo, de lo contrario el bloc de
+notas en realidad guardara el archivo como hola2.py.txt )
+Paso 4.- Cerrar el bloc de notas
+Paso 5.- Ir a la carpeta donde guardaron el archivo hola2.py y hacer
+doble clic en el.
+
+La función raw_input escribe en pantalla lo que se le ponga entre
+parentesis y espera un texto escrito por el usuario del programa,
+cuando el usuario presiona enter, guarda este texto en la variable que
+tenga a la izquierda, en este caso la variable "nombre", que luego
+sirve para decirle "Hola ..." al usuario con su propio nombre
+
+Por favor prueben y me dicen como les va. Que sirva este hilo para
+aclarar todas las dudas hasta este punto.
+
+Para los que quieran saber mas sobre Dennis Ritchie, aquí un buen
+articulo que hizo un buen amigo sobre Steve Jobs y Dennis Ritchie:
+http://phenobarbital.wordpress.com/2011/10/13/y-dios-quiso-hacerse-un-sistema-operativo/
+
+Un abrazo.

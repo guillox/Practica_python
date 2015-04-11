@@ -1,0 +1,31 @@
+"""15.- Diccionarios
+b) Sea el siguiente diccionario:
+edades = {25:'Juan',33: 'Flor',17:'Pedro',40:'Alberto'}
+En donde la clave identifica a la edad y el valor al nombre
+II. Imprima el nombre de la persona que tenga 33 años
+
+ejemplo
+
+>>>diccionario = {"enero":1,"febrero":2,"marzo":3}
+>>>diccionario
+{'enero': 1, 'marzo': 3, 'febero': 2}
+
+get(k[, d]) Busca el valor de la clave k en el diccionario. Es equivalente a utilizar D[k] pero al utilizar este método podemos indicar un valor a 
+devolver por defecto si no se encuentra la clave, mientras que con la sintaxis D[k], de no existir la clave se lanzaría una excepción veamos:
+
+>>>diccionario.get("marzo")
+3
+
+esto tambien lo podiamos averiguar de la froma D[k]
+
+>>>diccionario["marzo"]
+3
+
+la ventaja de la funcion get(k[, d]) es que podemos indicar un valor a devolver si la clave no esta:
+
+>>>diccionario.get("abril","valor no encontrado de la clave dada")
+>>>'valor no encontrado de la clave dada'
+"""
+
+edades = {25:'Juan',33: 'Flor',17:'Pedro',40:'Alberto'}
+print edades.get(33)

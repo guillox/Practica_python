@@ -1,0 +1,29 @@
+"""
+b. Ahora recorra nuevamente la estructura y copie los menores de edad en una lista y los elimine del
+diccionario original
+del diccionario[clave]
+
+Por ejemplo:
+gazpacho
+{'Pimiento': 1, 'Aceite': '300 ml', 'Vinagre': '100 ml', 'Pepino': 1}
+>>> del gazpacho['Aceite']
+>>> gazpacho
+{'Pimiento': 2, 'Vinagre': '100 ml', 'Pepino': 1}
+>>> del menda['URL']
+>>> menda
+{'Nombre': 'Javier', 'Twitter': '@pradery', 'Apellido': 'Montero'}
+
+"""
+personas = {'Jose':15, 'Guillermo':26,'Maria':10,'julia':35}
+
+for pers in len(personas):
+	if personas.value(pers)>=18:
+		t=t+(personas.key(pers),'Mayor de edad',personas.value(pers))
+	else:		
+		t=t+(personas.key(pers),'Menor de edad',personas.value(pers))
+		lista.append(personas.key(pers))
+		del personas[personas.key(pers)]
+print(lista)
+print(personas)
+
+		

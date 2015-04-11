@@ -1,0 +1,1 @@
+print 'hola mundo \nmi primer script'

@@ -1,0 +1,10 @@
+"""15.- Diccionarios
+b) Sea el siguiente diccionario:
+edades = {25:'Juan',33: 'Flor',17:'Pedro',40:'Alberto'}
+En donde la clave identifica a la edad y el valor al nombre
+V. Imprimir si una determinada edad está en el diccionario
+"""
+
+edades = {25:'Juan',33: 'Flor',17:'Pedro',40:'Alberto'}
+clave=input('escriba una clave que desee buscar')
+print edades.values(clave,"valor no encontrado de la clave dada")

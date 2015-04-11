@@ -1,0 +1,30 @@
+Debido a algunas consultas por parte de ustedes es que mandamos algunas aclaraciones sobre la Entrega 1
+ 
+ 
+* La carga tanto de categorías como de palabras que se pide es completamente manual
+* No hay procesamiento automático de las palabras para categorizarlas, lo que se pide para el alta es que por teclado el usuario indique a qué categoría quiere agregar una palabra y luego la palabra en sí, pero la decisión de a qué categoría se asigna cada palabra la toma el usuario.
+* Todas las palabras y categorías deben guardarse en un único archivo, realizando la persistencia y la recuperación de datos mediante Pickle, y utilizando una estructura adecuada para almacenar correctamente la información (categorías y palabras).
+* "ABM" hace referencia a "Alta, Baja y Modificación": Crear nuevas categorías/palabras, Borrar categorías/palabras existentes, y Modificar categorías/palabras existentes.
+ 
+Ejemplo del alta de una categoría
+ 
+1. El módulo Python le solicita al usuario que indique el nombre de la categoría
+2. El usuario escribe la categoría y presiona <ENTER>
+3. El módulo valida que la categoría no exista
+  3.1. Si la categoría no existe, la da de Alta y la guarda en el archivo
+  3.2. Si la categoría sí existe, indica el error y pide al usuario que ingrese una nueva categoría, volviendo al paso 1.
+ 
+Ejemplo del alta de una palabra
+ 
+1. El módulo Python le solicita al usuario que indique a qué categoría desea agregar una palabra
+2. El usuario indica la categoría
+3. El módulo valida que la categoría exista
+  3.1. Si no existe, vuelve al paso 1. con un mensaje de error
+  3.2. Si existe, continúa al paso 4.
+4. El módulo solicita al usuario que ingrese la nueva palabra.
+5. El usuario ingresa la palabra.
+6. El módulo valida que la palabra no exista en esa categoría
+  6.1. Si la palabra existe, indica el error y vuelve al paso 4.
+  6.2. Si la palabra no existe, la da de Alta y guarda en el archivo
+ 
+Saludos

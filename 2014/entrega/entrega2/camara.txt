@@ -1,0 +1,123 @@
+posicion de la camara 
+nivel 1
+location:
+x:-489.0563
+y:333.50223
+z:67.90378
+
+rotation
+x:4.589
+y:3.465
+z:89.867
+
+scale
+
+
+nivel 2
+location:
+x:-448.89523
+y:369.5528
+z:60.22311
+
+rotation
+x:46.575
+y:1.44
+z:182.867
+
+sensor 
+width:31.00
+height:25.00
+
+nivel 3
+location:
+x:-401.44672
+y:309.01843
+z:42.335
+
+rotation
+x:19.575
+y:-0.56
+z:91.867
+
+sensor:78.01
+
+
+nivel 4:
+location
+x:-395.47766
+y:242.77249
+z:32.79546
+
+rotation:
+x:27.575
+y:-5.56
+z:109.856
+
+sensor:80.0
+
+nivel 5
+location
+x:-457.12982
+y:258.68048
+z:48.91936
+
+rotation
+x:27.575
+y:-5.56
+z:99.856
+
+sensor:70.83
+
+localizacion menu1
+x:-492.25961
+y:328.77893
+z:70.0
+
+rotation
+x:0
+y:0
+z:0
+
+localizacion menu2
+x:-478.75961
+y:328.77893
+z:70.0
+
+rotation
+x:0
+y:0
+z:0
+
+localizacion menuayuda
+x:-492.25961
+y:343.89905
+z:70.0
+
+rotation
+x:0
+y:0
+z:0
+
+localizacion menupause
+x:-478.85962
+y:344.05014
+z:70.9
+
+rotation
+x:0
+y:0
+z:0
+
+localizacion menupauseopcion
+x:-467.55963
+y:344.80014
+z:69.0
+
+rotation
+x:0
+y:0
+z:0
+
+l
+
+
